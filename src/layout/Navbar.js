@@ -38,7 +38,7 @@ class Navbar extends Component {
           <CodeTheme />
           <Setting />
         </div>
-        <div className="nice-right-nav">
+        {/* <div className="nice-right-nav">
           <a
             className="nice-title nice-link"
             target="_blank"
@@ -63,7 +63,7 @@ class Navbar extends Component {
           >
             清风明月轩
           </a>
-        </div>
+        </div> */}
       </div>
     );
   }
