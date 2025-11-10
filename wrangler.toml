@@ -1,0 +1,6 @@
+[build]
+command = "yarn install && yarn build"
+publish = "build"
+
+[env.production.vars]
+NODE_ENV = "production"
